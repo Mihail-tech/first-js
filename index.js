@@ -92,27 +92,29 @@ console.log(arr6)
 
 let nFib = 12
 
-/* первая скобка*/
+
 const sqrtFive = 5
 let p = Math.sqrt(sqrtFive)
 console.log(p, 'корень из 5')
 
-let divis = (1 + p) / 2
+/*let divis = (1 + p) / 2
 console.log(divis, 'деление в скобке 1')
 
 let pow = Math.pow(divis, nFib)
 console.log(pow, 'результат 1 скоб')
 
-/*вторая скобка*/
+/*вторая скобка
 let divis1 = (1 - p) / 2
 console.log(divis1, 'деление в скобке 2')
 
 let pow1 = Math.pow(divis1, nFib)
 console.log(pow1, 'результат 2 скоб')
 
-/*общая формула*/
-let Fn = (pow - pow1) / a
+/*общая формула
+let Fn = (pow - pow1) / p
 console.log(Fn, 'ответ')
 
 let roud = Math.round(Fn)
-console.log(roud, 'округ. ответ')
+console.log(roud, 'округ. ответ')*/
+let Fn = Math.round( ( Math.pow( (1 + p) / 2, nFib ) - Math.pow( (1 - p) / 2, nFib ) ) / p )
+console.log(Fn)
