@@ -1,4 +1,4 @@
-const arr = [`1 задача`]
+/*const arr = [`1 задача`]
 console.log(arr)
 
 const str = "привет"
@@ -116,5 +116,5 @@ console.log(Fn, 'ответ')
 
 let roud = Math.round(Fn)
 console.log(roud, 'округ. ответ')*/
-let Fn = Math.round( ( Math.pow( (1 + p) / 2, nFib ) - Math.pow( (1 - p) / 2, nFib ) ) / p )
+/*let Fn = Math.round( ( Math.pow( (1 + p) / 2, nFib ) - Math.pow( (1 - p) / 2, nFib ) ) / p )
 console.log(Fn)
